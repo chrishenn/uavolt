@@ -1,9 +1,9 @@
-; 
+;
 ; GENERATED FILE. DO NOT EDIT!
-; 
+;
 ; setup information file
-; 
-; Copyright (c) 2009-2021 
+;
+; Copyright (c) 2009-2021
 ;
 
 ;******************************************************************************
@@ -252,7 +252,7 @@ UniversalAudioUsbAudioks.sys = 1
 ; Strings
 ;------------------------------------------------------------------------------
 [Strings]
-; 
+;
 ; Registry value types. DO NOT MODIFY!
 ;
 REG_SZ = 0x00000000

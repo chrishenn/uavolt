@@ -1,10 +1,10 @@
-; 
+;
 ; GENERATED FILE. DO NOT EDIT!
-; 
+;
 ; setup information file
-; 
-; Copyright (c) 2009-2021 
-; 
+;
+; Copyright (c) 2009-2021
+;
 ; built 2022-03-22 18:11:36
 ;
 
@@ -370,14 +370,14 @@ HKR,"ParametersDriver\CustomStrings","ProductVersion",%REG_SZ%,"1.1.0"
 ; license data record, created 2021-11-16 13:44:22
 HKR, ParametersDriver\License, format, %REG_DWORD%, 4
 HKR, ParametersDriver\License, customer, %REG_DWORD%, 1695
-HKR, ParametersDriver\License, options, %REG_DWORD%, 0x0000010C  ; Version Platform VidPid 
+HKR, ParametersDriver\License, options, %REG_DWORD%, 0x0000010C  ; Version Platform VidPid
 HKR, ParametersDriver\License, begin, %REG_BINARY%, 00,00,00,00,00,00,00,00
 HKR, ParametersDriver\License, end, %REG_BINARY%, 00,00,00,00,00,00,00,00
 HKR, ParametersDriver\License, version, %REG_DWORD%, 0x0005001B  ; v5.27
 HKR, ParametersDriver\License, features, %REG_BINARY%, 03,00,00,00,00,00,00,00  ; 0x0000000000000003
 HKR, ParametersDriver\License, restrictions, %REG_BINARY%, 00,00,00,00,00,00,00,00  ; 0x0000000000000000
-HKR, ParametersDriver\License, extensions, %REG_DWORD%, 0x00000001  ; USB 
-HKR, ParametersDriver\License, platforms, %REG_DWORD%, 0x00000003  ; WinX86 WinX64 
+HKR, ParametersDriver\License, extensions, %REG_DWORD%, 0x00000001  ; USB
+HKR, ParametersDriver\License, platforms, %REG_DWORD%, 0x00000003  ; WinX86 WinX64
 HKR, ParametersDriver\License\OsDetailsWin, count, %REG_DWORD%, 0
 HKR, ParametersDriver\License\OsDetailsMac, count, %REG_DWORD%, 0
 HKR, ParametersDriver\License\CpuDetails, count, %REG_DWORD%, 0
@@ -668,7 +668,7 @@ UniversalAudioUsbAudio.sys = 1
 ; Strings
 ;------------------------------------------------------------------------------
 [Strings]
-; 
+;
 ; Registry value types. DO NOT MODIFY!
 ;
 REG_SZ = 0x00000000

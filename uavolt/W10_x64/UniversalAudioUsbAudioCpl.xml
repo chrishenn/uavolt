@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!-- Control Panel Configuration File          
+<!-- Control Panel Configuration File
      For documentation see TUSBAudio_UserManual.pdf, section "Control Panel Customization".
 -->
-       
+
 <ControlPanel FormatVersionMajor="3" FormatVersionMinor="0">
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <!-- GUID required to locate the driver DLL.
-         IMORTANT: This GUID must be equal to the one specified in the 
+         IMORTANT: This GUID must be equal to the one specified in the
          InterfaceGUID= statement in custom.ini. -->
-    <DriverInterfaceGUID>{4037353E-F78D-4022-B4F5-500E91F4DB73}</DriverInterfaceGUID>     
-    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
-    <NotificationArea>    
+    <DriverInterfaceGUID>{4037353E-F78D-4022-B4F5-500E91F4DB73}</DriverInterfaceGUID>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <NotificationArea>
         <Enable>False</Enable>
     </NotificationArea>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -22,12 +22,12 @@
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <PageOptions>
         <!-- Supported values for this page: Hidden (default), Visible  -->
-        <Visibility>Hidden</Visibility>       
+        <Visibility>Hidden</Visibility>
     </PageOptions>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-    <PageStreamFormats>    
+    <PageStreamFormats>
         <!-- Supported values for this page: Hidden, Visible, Auto (default) -->
-        <Visibility>Hidden</Visibility>         
+        <Visibility>Hidden</Visibility>
     </PageStreamFormats>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <PageSampleRate>
@@ -35,7 +35,7 @@
         <Visibility>Visible</Visibility>
     </PageSampleRate>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-    <PageClockSource>  
+    <PageClockSource>
         <!-- Supported values for this page: Hidden, Visible, Auto (default) -->
         <Visibility>Hidden</Visibility>
     </PageClockSource>
@@ -45,7 +45,7 @@
       <Visibility>Hidden</Visibility>
     </PageAsioDevice>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-    <PageBufferSettings>    
+    <PageBufferSettings>
         <!-- Supported values for this page: Hidden, Visible (default) -->
         <Visibility>Visible</Visibility>
         <!-- ................................................................ -->
@@ -54,14 +54,14 @@
         </BufferSettingsSection>
     </PageBufferSettings>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-    <PageVolumeControl>    
+    <PageVolumeControl>
         <!-- Supported values for this page: Hidden, Visible, Auto (default) -->
-        <Visibility>Hidden</Visibility>       
+        <Visibility>Hidden</Visibility>
     </PageVolumeControl>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <PageClientInfo>
         <!-- Supported values for this page: Hidden, Visible (default) -->
-        <Visibility>Hidden</Visibility>   
+        <Visibility>Hidden</Visibility>
     </PageClientInfo>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <PageInfo>
